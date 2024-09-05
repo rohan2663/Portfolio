@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Portfolio Website</title>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "_12C8EaJ4EbmX08c2",
+      });
+   })();
+</script>
+
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Rohan</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link" id="main">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link" id="edu">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link" id="project">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link" id="skill">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link" id="service">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link" id="contact-me">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <img src="image.jpg" alt="Profile Image" class="home__img" />
+            <h1 class="home__title">Hi, I'm Rohan Kumar</h1>
+            <p class="home__description">
+  Seeking an internship as a Full Stack Developer to utilize my
+  software development skills, problem-solving abilities, and
+  teamwork in a dynamic and growth-oriented environment.
+</p>
+
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="ri-arrow-right-line button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section" id="education">
+  <h2 class="section__title">Education</h2>
+  <div class="education__container container grid">
+    <div class="education__card">
+      <h3 class="education__degree">Bachelor of Engineering</h3>
+      <p class="education__institution">Chitkara University</p>
+      <p class="education__year">2022 - 2026</p>
+      <p class="education__details">CGPA: 7.85</p>
+    </div>
+    <div class="education__card">
+      <h3 class="education__degree">Secondary School Certificate (12th Grade)</h3>
+      <p class="education__institution">Nalanda Sodh Sansthan</p>
+      <p class="education__year">2021</p>
+      <p class="education__details">Result: 69.9%</p>
+    </div>
+    <div class="education__card">
+      <h3 class="education__degree">Secondary School Certificate (10th Grade)</h3>
+      <p class="education__institution">DAV Public School</p>
+      <p class="education__year">2019</p>
+      <p class="education__details">Result: 74.4%</p>
+    </div>
+  </div>
+</section>
+
+
+      <section class="work section" id="work">
+        <h2 class="section__title">My Work</h2>
+        <div class="work__container container grid">
+          <div class="work__card">
+            <h3 class="work__title">Project One</h3>
+            <a
+              href="https://github.com/rohan2663/ExploreIndiaIp.git"
+              class="work__button"
+            >
+              Explore India <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Two</h3>
+            <a
+              href="https://github.com/rohan2663/Bharat_Intern-Projects.git"
+              class="work__button"
+            >
+              Bharat Intern <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Three</h3>
+            <a
+              href="https://github.com/rohan2663/toDo-App.git"
+              class="work__button"
+            >
+              TO-DO App <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Four</h3>
+            <a
+              href="https://github.com/rohan2663/Stop-Watch.git"
+              class="work__button"
+            >
+              Stop-Watch <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Five</h3>
+            <a
+              href="https://github.com/rohan2663/Quiz.git"
+              class="work__button"
+            >
+              Quiz App <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Six</h3>
+            <a
+              href="https://github.com/rohan2663/Password-Generator.git"
+              class="work__button"
+            >
+              Password-Generator <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Seven</h3>
+            <a
+              href="https://github.com/rohan2663/QR-Code-Generator.git"
+              class="work__button"
+            >
+              QR-Code-Generator <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Eight</h3>
+            <a
+              href="https://github.com/rohan2663/MusicPlayer.git"
+              class="work__button"
+            >
+              Music Player <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="work__card">
+            <h3 class="work__title">Project Nine</h3>
+            <a
+              href="https://github.com/rohan2663/WeatherApp.git"
+              class="work__button"
+            >
+              Weather App <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+  <h2 class="section__title">Skills</h2>
+  <div class="skills__container container grid">
+    <div class="skills__card">
+      <h2 class="section__title">Technical Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> HTML</li>
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> CSS</li>
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> JavaScript</li>
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> C</li>
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> C++</li>
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Java</li>
+        <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Python</li>
+      </ul>
+    </div>
+
+    <div class="skills__card">
+      <h2 class="section__title">Certification</h2>
+        <li class="skills__item">TATA CLIQ Online Certification: Tata Cybersecurity Security Analyst Job Simulation on Forage</li>
+        <li class="skills__item">NPTEL Online Certification: The Joy of Computing Using Python</li>
+        <li class="skills__item">CISCO Online Certification: JavaScript Essentials</li>
+        <li class="skills__item">Infosys Online Certification: Programming Using C++</li>
+        <li class="skills__item">Infosys Online Certification: Software Engineering Fundamentals - Software Development and Testing</li>
+        <li class="skills__item">Infosys Online Certification: Machine Learning Using Python</li>
+    </div>
+  </div>
+</section>
+
+      <section class="services section" id="services">
+  <h2 class="section__title">My Services</h2>
+
+  <div class="services__container container grid">
+    <div class="services__card">
+      <h3 class="services__subtitle">Web Design</h3>
+      <ul class="services__list">
+        <li class="services__item">
+          <i class="fas fa-check"></i> Responsive Design
+        </li>
+        <li class="services__item">
+          <i class="fas fa-check"></i> User Experience (UX) Design
+        </li>
+        <li class="services__item">
+          <i class="fas fa-check"></i> Interface (UI) Design
+        </li>
+      </ul>
+    </div>
+
+    <div class="services__card">
+      <h3 class="services__subtitle">Web Development</h3>
+      <ul class="services__list">
+        <li class="services__item">
+          <i class="fas fa-check"></i> Front-End Development
+        </li>
+        <li class="services__item">
+          <i class="fas fa-check"></i> Back-End Development
+        </li>
+        <li class="services__item">
+          <i class="fas fa-check"></i> Full-Stack Development
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__container container grid">
+          <form action="#" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <label for="name" class="contact__label">Name</label>
+                <input type="text" id="name" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input type="email" id="email" class="contact__input" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea
+                id="message"
+                cols="30"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit" class="button button--flex" id="btn-submit">
+                Send Message <i class="ri-send-plane-line button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+  <div class="footer__container container">
+    <h1 class="footer__title">Rohan</h1>
+    <div class="footer__social">
+      <a href="http://www.linkedin.com/in/rohankumar2663" class="footer__social-link">
+        <i class="ri-linkedin-fill"></i>
+      </a>
+      <a href="https://github.com/rohan2663" class="footer__social-link">
+        <i class="ri-github-fill"></i>
+      </a>
+      <a href="https://leetcode.com/u/rohankumar2663/" class="footer__social-link">
+        <i class="footer__social-link">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+            alt="LeetCode Profile"
+            class="footer__leetcode-icon"
+          />
+        </i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+  </body>
+  <script src="script.js"></script>
+</html>
